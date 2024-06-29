@@ -1,0 +1,60 @@
+.name{
+    background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.cards > div{
+    height: 200px;
+    background-color: #f0f4f9;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.cards > div > img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cards > div >p{
+    color: #585858;
+    font-size: 17px;
+    
+}
+
+.cards > div:hover{
+    background-color: #dfe4ea;
+}
+
+.result::-webkit-scrollbar{
+    display: none;
+}
+
+
+.loader{
+    border-radius: 4px;
+    border: none;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right, #9ed7ff, #ffffff, #9ed7ff);
+    background-size: 800px 50px;
+    height: 20px;
+    width: 100%;
+}
+
+.boldd{
+    font-weight: 600;
+}

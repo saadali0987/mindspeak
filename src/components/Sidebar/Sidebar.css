@@ -1,0 +1,16 @@
+img{
+    width: 30px;
+}
+
+
+.bottom  div{
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.bottom div:hover{
+    background-color: rgb(215, 213, 213);
+}   
